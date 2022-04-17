@@ -1,3 +1,5 @@
+USE loja_roupas;
+
 DELIMITER $$
     CREATE TRIGGER trg_compra_produto_insert 
     AFTER INSERT ON compra_produto FOR EACH ROW 
